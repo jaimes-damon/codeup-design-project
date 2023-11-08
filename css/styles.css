@@ -1,0 +1,12 @@
+.logo {
+   height: 105px;
+    width: 105px;
+}
+
+@media screen and (max-width: 760px) {
+.navbar-brand {
+    display: none;
+}
+
+;
+}
