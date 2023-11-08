@@ -1,12 +1,81 @@
+body {
+    background: #F0F0F0;
+}
+nav {
+    background: #F0F0F0;
+}
 .logo {
    height: 105px;
     width: 105px;
 }
 
-@media screen and (max-width: 760px) {
-.navbar-brand {
-    display: none;
+.circle-red {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    background: #e6563b;
+    border: 10px solid #fff;
+}
+.circle-yellow {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    background: #eb9d3a;
+    border: 10px solid #fff;
+}
+.circle-green {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    background: #7cb06c;
+    border: 10px solid #fff;
+}
+.circle-blue {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    background: #00aba9;
+    border: 10px solid #fff;
 }
 
-;
+.lil-red-cir {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #e6563b;
 }
+.lil-yellow-cir {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #eb9d3a;
+}
+.lil-green-cir {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #7cb06c;
+}
+.lil-blue-cir {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #00aba9;
+}
+
+.little-circles > div {
+    font-size: .5em;
+}
+
+.apple-comp > img {
+    border: 10px solid #E6E6E6;
+}
+
+
+/*@media screen and (max-width: 760px) {*/
+/*.navbar-brand {*/
+/*    display: none;*/
+/*}*/
+
+/*;*/
+/*}*/
