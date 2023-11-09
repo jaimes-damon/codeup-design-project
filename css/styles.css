@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background: #F0F0F0;
 }
