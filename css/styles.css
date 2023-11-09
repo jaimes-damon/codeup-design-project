@@ -1,14 +1,26 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     background: #F0F0F0;
 }
-nav {
-    background: #F0F0F0;
+
+h1, h2, h5 {
+    font-family: Anton, sans-serif;
 }
+
+p {
+    font-family: Abel, sans-serif;
+}
+
+.navbar-brand {
+    font-family: Abel, sans-serif;
+    font-size: 2em;
+}
+
 .logo {
-   height: 105px;
+    height: 105px;
     width: 105px;
 }
 
@@ -18,27 +30,34 @@ nav {
     border-radius: 50%;
     background: #e6563b;
     border: 10px solid #fff;
+    font-family: Anton, sans-serif;
 }
+
 .circle-yellow {
     height: 105px;
     width: 105px;
     border-radius: 50%;
     background: #eb9d3a;
     border: 10px solid #fff;
+    font-family: Anton, sans-serif;
 }
+
 .circle-green {
     height: 105px;
     width: 105px;
     border-radius: 50%;
     background: #7cb06c;
     border: 10px solid #fff;
+    font-family: Anton, sans-serif;
 }
+
 .circle-blue {
     height: 105px;
     width: 105px;
     border-radius: 50%;
     background: #00aba9;
     border: 10px solid #fff;
+    font-family: Anton, sans-serif;
 }
 
 .lil-red-cir {
@@ -46,24 +65,31 @@ nav {
     width: 18px;
     border-radius: 50%;
     background: #e6563b;
+    font-family: Anton, sans-serif;
 }
+
 .lil-yellow-cir {
     height: 18px;
     width: 18px;
     border-radius: 50%;
     background: #eb9d3a;
+    font-family: Anton, sans-serif;
 }
+
 .lil-green-cir {
     height: 18px;
     width: 18px;
     border-radius: 50%;
     background: #7cb06c;
+    font-family: Anton, sans-serif;
 }
+
 .lil-blue-cir {
     height: 18px;
     width: 18px;
     border-radius: 50%;
     background: #00aba9;
+    font-family: Anton, sans-serif;
 }
 
 .little-circles > div {
@@ -75,10 +101,12 @@ nav {
 }
 
 
-/*@media screen and (max-width: 760px) {*/
-/*.navbar-brand {*/
-/*    display: none;*/
-/*}*/
-
-/*;*/
-/*}*/
+@media screen and (max-width: 992px) {
+    #last-section {
+        display: none !important;
+    }
+    #sel-wrk-sec {
+        width: 100% !important;
+    }
+;
+}
