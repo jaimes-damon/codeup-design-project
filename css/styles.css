@@ -1,11 +1,14 @@
+/* Box sizing for all elements */
 * {
     box-sizing: border-box;
 }
 
+/* Body background color */
 body {
     background: #F0F0F0;
 }
 
+/* Font styles for headings and paragraphs */
 h1, h2, h5 {
     font-family: Anton, sans-serif;
 }
@@ -14,6 +17,7 @@ p {
     font-family: Abel, sans-serif;
 }
 
+/* Styling for the navigation brand and logo */
 .navbar-brand {
     font-family: Abel, sans-serif;
     font-size: 2em;
@@ -24,6 +28,7 @@ p {
     width: 105px;
 }
 
+/* Styling for the red circle */
 .circle-red {
     height: 105px;
     width: 105px;
@@ -33,6 +38,7 @@ p {
     font-family: Anton, sans-serif;
 }
 
+/* Styling for the yellow circle */
 .circle-yellow {
     height: 105px;
     width: 105px;
@@ -42,6 +48,7 @@ p {
     font-family: Anton, sans-serif;
 }
 
+/* Styling for the green circle */
 .circle-green {
     height: 105px;
     width: 105px;
@@ -51,6 +58,7 @@ p {
     font-family: Anton, sans-serif;
 }
 
+/* Styling for the blue circle */
 .circle-blue {
     height: 105px;
     width: 105px;
@@ -60,6 +68,7 @@ p {
     font-family: Anton, sans-serif;
 }
 
+/* Styling for the small red circle */
 .lil-red-cir {
     height: 18px;
     width: 18px;
@@ -68,6 +77,7 @@ p {
     font-family: Anton, sans-serif;
 }
 
+/* Styling for the small yellow circle */
 .lil-yellow-cir {
     height: 18px;
     width: 18px;
@@ -76,6 +86,7 @@ p {
     font-family: Anton, sans-serif;
 }
 
+/* Styling for the small green circle */
 .lil-green-cir {
     height: 18px;
     width: 18px;
@@ -84,6 +95,7 @@ p {
     font-family: Anton, sans-serif;
 }
 
+/* Styling for the small blue circle */
 .lil-blue-cir {
     height: 18px;
     width: 18px;
@@ -92,20 +104,24 @@ p {
     font-family: Anton, sans-serif;
 }
 
+/* Font size for small circles within featured projects */
 .little-circles > div {
     font-size: .5em;
 }
 
+/* Styling for the border of images */
 .img-box > img {
     border: 10px solid #E6E6E6;
 }
 
+/* Styling for cards */
 .card {
     max-width: 540px;
     border: none;
     background-color: #F0F0F0;
 }
 
+/* Navigation link hover color */
 .navbar a:hover {
     color: orange;
 }
